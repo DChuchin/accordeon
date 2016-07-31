@@ -3,23 +3,6 @@ var accordeon = (function () {
 		_setUpListeners();
 	};
 	function _setUpListeners () {
-/*------------------------------ native js -------------------------------------*/		
-		// var links = document.querySelectorAll('.accordeon__link');
-		// for (var i = 0; i < links.length; i++){
-		// 	links[i].addEventListener('click', function(e) {
-		// 		e.preventDefault();
-		// 		var that = this,
-		// 			thisItem = that.;
-		// 		console.log(that);
-		// 	});
-		// }
-
-
-
-
-
-
-/*-------------------------jquery-----------------------------------*/
 		$('.accordeon__link').on('click', function(e) {
 			e.preventDefault();
 			var $this = $(this),
